@@ -1,0 +1,40 @@
+## Assignment 3: WordPress Child Theme
+
+### Overview
+
+For this assignment, I created a child theme based on my Metro Report theme from Assignment 2. The goal was to customize the design without changing the original parent theme files.
+
+---
+
+### Setup
+
+I created a child theme folder with:
+
+- style.css (theme header and custom styles)
+- functions.php (loads parent and child styles)
+- single.php (custom layout for posts)
+- page.php (custom layout for pages)
+
+---
+
+### Customizations
+
+I improved the layout by:
+
+- adding a card-style design to homepage posts
+- centering content and improving spacing
+- increasing title size for better readability
+- styling pages with a boxed layout
+
+---
+
+### Templates
+
+- single.php shows post title, author, date, and content  
+- page.php shows title and content only  
+
+---
+
+### Reflection
+
+This assignment helped me understand how child themes work and how to safely customize a WordPress site. I also learned how template files control different parts of the site layout.
