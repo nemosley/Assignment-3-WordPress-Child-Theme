@@ -1,0 +1,93 @@
+/*
+Theme Name: NSM Metro Theme Child
+Description: Child theme for NSM Metro Theme
+Author: Nevaeh Mosley
+Template: NSM_metro-theme
+Version: 1.0
+*/
+
+/* ===== Homepage ===== */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.article-card {
+    background: #ede9ed;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #820af3;
+    border-radius: 8px;
+}
+
+.article-card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.article-card p {
+    line-height: 1.7;
+}
+
+/* ===== Single Post (your simple version) ===== */
+.single article {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.single h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.single article div {
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+/* author/date line */
+.single article p small {
+    color: #c81313;
+}
+
+/* spacing + divider under author/date */
+.single article p {
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #b95858;
+}
+
+
+/* hover effect */
+.article-card:hover {
+    transform: translateY(-2px);
+    transition: 0.2s;
+}
+
+/* ===== Pages (your page.php with classes) ===== */
+.page .site-main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.page .entry-title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.page .entry-content {
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+/* page box style */
+.page article {
+    background: #d0aeae;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
